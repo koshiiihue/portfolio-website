@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Portfolio</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <ul class="nav-list">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <header id="home" class="hero">
+    <h1>Hi, I'm <span class="name">[koshi jain]</span></h1>
+    <p>I am an engineering student and web developer who loves building clean, responsive web apps.</p>
+    <a class="scroll-down" href="#about" aria-label="Scroll to about">↓</a>
+  </header>
+
+  <!-- ABOUT -->
+  <section id="about" class="section about">
+    <h2>About Me</h2>
+    <p>Hello! I’m [koshi jain]. I enjoy creating beautiful and functional websites. I code in HTML, CSS, JavaScript and study software engineering at college.</p>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section projects">
+    <h2>Projects</h2>
+    <div class="project-list">
+      <article class="project">
+        <h3>Portfolio Website</h3>
+        <p>A personal portfolio built with HTML, CSS and JS.</p>
+      </article>
+
+      <article class="project">
+        <h3>Weather App</h3>
+        <p>Shows live weather using a public API.</p>
+      </article>
+
+      <article class="project">
+        <h3>Task Tracker</h3>
+        <p>A simple CRUD app to track daily tasks.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section contact">
+    <h2>Contact</h2>
+    <p>Want to collaborate? <a href="mailto:koshigowadia.com">koshigowadia.com</a></p>
+    <a class="btn-contact" href="mailto:koshigowadia.com">Email Me</a>
+  </section>
+
+  <footer>
+    © <span id="year"></span> [koshi jain] — Built with ♥
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
